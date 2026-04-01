@@ -9,7 +9,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@OpenAPIDefinition(info = @Info(title = "My API",
+@OpenAPIDefinition(info = @Info(title = "Testing JWT API",
         version = "v1",
         description = "This is description"))
 @SecurityScheme(
