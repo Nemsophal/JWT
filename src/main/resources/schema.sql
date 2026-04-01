@@ -17,4 +17,4 @@ CREATE TABLE app_user_role
     user_id INT NOT NULL REFERENCES app_users (user_id) ON DELETE CASCADE,
     role_id INT NOT NULL REFERENCES app_roles (role_id) ON DELETE CASCADE,
     PRIMARY KEY (user_id, role_id)
-);
+)
