@@ -1,4 +1,4 @@
-package org.example.demojwt.model.entity;
+package org.hrd.demojwt.model.entity;
 
 
 import lombok.AllArgsConstructor;

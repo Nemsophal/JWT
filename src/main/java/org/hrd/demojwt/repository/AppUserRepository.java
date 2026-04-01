@@ -1,7 +1,7 @@
-package org.example.demojwt.repository;
+package org.hrd.demojwt.repository;
 
 import org.apache.ibatis.annotations.*;
-import org.example.demojwt.model.entity.AppUser;
+import org.hrd.demojwt.model.entity.AppUser;
 import java.util.List;
 
 @Mapper

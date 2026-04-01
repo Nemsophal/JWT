@@ -1,8 +1,8 @@
-package org.example.demojwt.service.Impl;
+package org.hrd.demojwt.service.Impl;
 
 import lombok.RequiredArgsConstructor;
-import org.example.demojwt.repository.AppUserRepository;
-import org.example.demojwt.service.AppUserService;
+import org.hrd.demojwt.repository.AppUserRepository;
+import org.hrd.demojwt.service.AppUserService;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;

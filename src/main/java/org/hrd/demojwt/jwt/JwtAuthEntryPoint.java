@@ -1,4 +1,4 @@
-package org.example.demojwt.jwt;
+package org.hrd.demojwt.jwt;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

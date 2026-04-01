@@ -1,18 +1,16 @@
-package org.example.demojwt.controller;
+package org.hrd.demojwt.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.apache.ibatis.javassist.NotFoundException;
-import org.example.demojwt.jwt.JwtService;
-import org.example.demojwt.model.request.AuthRequest;
-import org.example.demojwt.model.request.AuthResponse;
-import org.example.demojwt.service.AppUserService;
+import org.hrd.demojwt.jwt.JwtService;
+import org.hrd.demojwt.model.request.AuthRequest;
+import org.hrd.demojwt.model.request.AuthResponse;
+import org.hrd.demojwt.service.AppUserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.DisabledException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

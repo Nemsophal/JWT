@@ -1,10 +1,10 @@
-package org.example.demojwt.jwt;
+package org.hrd.demojwt.jwt;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.impl.lang.Function;
 import io.jsonwebtoken.security.Keys;
-import org.example.demojwt.model.entity.AppUser;
+import org.hrd.demojwt.model.entity.AppUser;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 

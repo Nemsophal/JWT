@@ -1,4 +1,4 @@
-package org.example.demojwt.service;
+package org.hrd.demojwt.service;
 
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

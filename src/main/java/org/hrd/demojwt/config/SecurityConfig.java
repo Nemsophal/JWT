@@ -1,8 +1,8 @@
-package org.example.demojwt.config;
+package org.hrd.demojwt.config;
 
 import lombok.AllArgsConstructor;
-import org.example.demojwt.jwt.JwtAuthEntryPoint;
-import org.example.demojwt.jwt.JwtAuthFilter;
+import org.hrd.demojwt.jwt.JwtAuthEntryPoint;
+import org.hrd.demojwt.jwt.JwtAuthFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
